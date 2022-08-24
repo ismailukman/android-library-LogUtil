@@ -8,6 +8,9 @@ android {
     buildToolsVersion "30.0.1"
 
     defaultConfig {
+        configurations.all {
+            resolutionStrategy { force 'androidx.core:core-ktx:1.6.0' }
+        }
         applicationId "com.itcglobal.logutilexample"
         minSdkVersion 21
         targetSdkVersion 30
