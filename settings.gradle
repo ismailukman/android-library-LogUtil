@@ -2,3 +2,4 @@ include ':logutil'
 include ':app'
 rootProject.name = "LogUtilExample"
 include ':errorutil'
+include ':errorutils'
